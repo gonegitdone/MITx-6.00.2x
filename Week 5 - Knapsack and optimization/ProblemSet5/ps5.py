@@ -164,6 +164,9 @@ def directedDFS(digraph, start, end, maxTotalDist, maxDistOutdoors):
         If there exists no path that satisfies maxTotalDist and
         maxDistOutdoors constraints, then raises a ValueError.
     """
+    # will have to try again to rewrite this recursively for fun later
+
+    
     # Initialise lists & variables
     stack = []
     stack.append([[start], (0, 0)])
